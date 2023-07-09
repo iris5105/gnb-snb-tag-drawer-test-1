@@ -28,7 +28,7 @@ const Main = () => {
       <div>
         <Tabs>
           <TabPane tab="통합광고 대시보드" key="1">
-            <MainTab1></MainTab1>
+            <MainTab1 />
           </TabPane>
           <TabPane tab="광고주/매체사별 요약 대시보드" key="2">
             {/* <MainTab2></MainTab2> */}

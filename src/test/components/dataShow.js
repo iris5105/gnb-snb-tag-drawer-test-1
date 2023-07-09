@@ -1,12 +1,11 @@
 import React from "react";
-import "../index.css";
 import { Select } from "antd";
 import { VscTriangleDown } from "react-icons/vsc";
 
 const handleChange = (value) => {
   console.log(`selected ${value}`);
 };
-export const Dshow = () => (
+export const Datashow = () => (
   <div>
     <Select
       style={{ width: "100%" }}
